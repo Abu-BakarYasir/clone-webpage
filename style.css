@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta+Bold); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+        padding-top: 16px;
+        font-family: "Nunito Sans", sans-serif;
+        font-style: normal;
+    }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #222222;
+    font-size: bold;
+    padding: 5px 74px;
+    padding-bottom: 16px;
+    
+}
+
+#navbar .pages {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+li a {
+    font-family: "Nunito Sans bold", sans-serif;
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 16px;
+    font-size: 18px;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Intro section */
+.intro {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    padding: 88px 40px;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.left-intro
+{
+    padding-left: 40px;
+    width: 50%;  
+    
+}
+.persson-image {
+    width: 50%; 
+    display: flex;
+    justify-content: center; 
+    padding-left: 20px;
+}
+.intro .person-image
+{
+    max-width: 60%;
+    max-height: 80%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0px blue;
+   
+}
+
+
+.left-intro h1
+{
+  font-family: "Recoleta Bold", serif;
+  font-size: 72px; /* Increase from 56px */
+  font-weight: 700;
+  line-height: 1.2; /* Adjust line height for better readability */
+}
+
+
+.intro h1 {
+    font-size: 3rem; 
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #222222;
+}
+
+.intro button {
+    background-color: royalblue;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+/* Body section */
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f7fe;
+    padding: 40px;
+    text-align: center;
+}
+
+.body h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+/* Story Image */
+.body img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.para {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 60px;
+    gap: 20px;
+    background-color: #f0f7fe;
+
+    
+}
+
+.p1 {
+    flex: 1; 
+    min-width: 300px;
+    padding: 20px 0px;
+    font-size: x-large;
+    overflow-wrap: break-word; 
+}
+.p1 p
+{
+    color: #222222;
+    font-size: 18px;
+}
+
+
+.divs-4
+{
+   display: flex;
+   gap: 40px;
+   padding: 60px 40px;
+}
+.divs-4 p
+{
+    padding-top: 60px;
+    font-size: x-large;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    color: #222222;
+}
+.divs-4 h1
+{
+    padding-top: 20px;
+    font-family:Recoleta Bold;
+    font-size: 28px;
+}
